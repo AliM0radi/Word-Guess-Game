@@ -1,18 +1,24 @@
-## Getting Started
+# 🎯 Word Guess Game (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+ بازی حدس کلمات با راهنما و امتیازدهی
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## توضیح کوتاه
+یک بازی کنسولی که کاربر باید حروف کلمات را حدس بزند.  
+هر کلمه یک **راهنما یا Hint** دارد و بعد از حدس کامل، 10 امتیاز به کاربر تعلق می‌گیرد.  
+نمایش رنگی در کنسول:  
+-  درست → سبز  
+-  غلط → قرمز  
+-  امتیاز و راهنما → آبی  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+##  قابلیت‌ها
+- حدس چند کلمه به ترتیب  
+- نمایش راهنمایی مرتبط با هر کلمه  
+- سیستم امتیازدهی و نمایش نهایی  
+- طراحی شی‌گرای با کلاس‌های جداگانه: `Word`, `Game`, `Player`, `Main`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
