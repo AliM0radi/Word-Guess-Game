@@ -22,3 +22,9 @@
 
 ---
 
+#  روش اجرا (مهم)
+پوشه Word_Guess_Game را با استفاده از VS Code باز کنید و سپس فایل Main.java را از پوشه src اجرا کنید.
+- در VS Code:
+- File > Open Folder > Word_Guess_Game
+- سپس وارد پوشه src شده و Main.java را اجرا کنید.
+ 
